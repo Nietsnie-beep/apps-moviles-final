@@ -3,6 +3,7 @@
     "name": "nfcotact",
     "slug": "nfcotact",
     "version": "1.0.0",
+    "owner": "appmovilesniets",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aratasama.nfcotact"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "048ac578-0e7d-42e6-8131-9b9ed09c3114"
+      }
     }
   }
 }
